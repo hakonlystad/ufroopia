@@ -1,0 +1,54 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    border: black 2px;
+    padding: 10px;
+    justify-content: center;
+
+}
+.grid-item {
+    background-color: whitesmoke;
+    border: 1px solid darkslategrey;
+    padding: 10px;
+    font-size: 30px;
+    position: relative;
+}
+
+.tall {
+    position: relative;
+    top:0;
+    right:0;
+    font-family: Futura;
+    font-size: 16px;
+}
+
+.ukedager_header {
+    display: grid;
+    padding-top: 60px;
+    grid-auto-rows: 30px;
+    align-items: center;
+    text-align: center;
+    font-family: Futura;
+}
+
+.center {
+    position: absolute;
+    top: 1%;
+    left: 42%;
+    display: flex;
+    margin: 10px 10px;
+}
+
+.forms {
+    padding:10px;
+}
+
+.gridTxt1 {
+    font: 10px sans-serif;
+}
+.gridTxt2 {
+    font: 400 11.5px sans-serif;
+    fill: #666;
+}
+
+

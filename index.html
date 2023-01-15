@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="opp.js"></script>
+    <link rel="stylesheet" href="kalendergrid.css">
+    <title>Kalender</title>
+</head>
+<body onload="testMonth()">
+
+<div class="center">
+    <form class="forms">
+        <select name = "Måned" value = "1" id ="mnd" onchange="testMonth()">
+            <option value = "1">Unusar</option>
+            <option value = "2">Duoar</option>
+            <option value = "3" >Tresar</option>
+            <option value = "4" >Quatar</option>
+            <option value = "5">Quinqar</option>
+            <option value = "6">Sexar</option>
+            <option value = "7">Septembar</option>
+            <option value = "8" >Octobar</option>
+            <option value = "9">Novembar</option>
+            <option value = "10" >Decembar</option>
+            <option value = "11" >Undecimbar</option>
+            <option value = "12">Duodecimbar</option>
+        </select>
+    </form>
+
+    <form class="forms">
+        <select name = "År" id ="aar" value="671" onchange="testMonth()">
+            <option value = "671" selected>671</option>
+            <option value = "672">672</option>
+            <option value = "673" >673</option>
+            <option value = "674" >674</option>
+            <option value = "675">675</option>
+        </select>
+    </form>
+
+</div>
+
+<div class="grid-container">
+
+    <div class="ukedager_header">man</div>
+    <div class="ukedager_header">tir</div>
+    <div class="ukedager_header">ons</div>
+    <div class="ukedager_header">tor</div>
+    <div class="ukedager_header">fre</div>
+    <div class="ukedager_header">lør</div>
+
+</div>
+
+<div id="monthTest" class="grid-container"></div>
+
+
+</body>
+</html>
